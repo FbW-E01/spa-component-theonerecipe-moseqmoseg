@@ -1,5 +1,23 @@
-function App() {
-  return <div className="App">Coming soon: an IMPRESSIVE recipe website!!!</div>;
-}
+import React from "react";
+import Title from "./Components/Title";
+import Ingredients from "./Components/Ingredients";
+import Steps from "./Components/Steps";
+import Footer from "./Components/Footer";
+import './App.css'
 
-export default App;
+
+
+
+function App() {
+    return (
+        <div className="App">
+          <Title/>
+          <Ingredients/>
+          <Steps/>
+          <Footer/>
+        </div>
+      );
+    };
+
+    export default App;
+    

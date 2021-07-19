@@ -1,0 +1,22 @@
+.App {
+    display: grid;
+    grid-template-columns: 23.8fr;
+    gap: 0px 0px;
+    grid-template-areas: "Title" "ingredientsList" "Steps" "Footer";
+}
+
+.Title {
+    grid-area: Title;
+}
+
+.ingredientsList {
+    grid-area: ingredientsList;
+}
+
+.Steps {
+    grid-area: Steps;
+}
+
+.Footer {
+    grid-area: Footer;
+}

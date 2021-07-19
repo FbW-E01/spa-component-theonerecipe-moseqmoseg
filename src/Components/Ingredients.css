@@ -1,0 +1,13 @@
+.ingredientBox {
+    border: solid 3px #8084A8;
+    border-radius: 2px;
+    border-bottom: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: larger;
+    text-align: center;
+}
+
+.listOfIngredients {
+    list-style-type: none;
+}
